@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^3.4.0"
   },
   "scripts": {
-    "build": "npx --yes tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
   }
 }
