@@ -3,6 +3,7 @@
     "tailwindcss": "^3.4.0"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "postinstall": "chmod +x node_modules/.bin/tailwindcss 2>/dev/null || true"
   }
 }
